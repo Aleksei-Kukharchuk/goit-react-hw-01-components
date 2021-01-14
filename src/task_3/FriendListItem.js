@@ -1,4 +1,6 @@
-export default function FriendListItem({ avatar, name, isOnline }) {
+import defaultAvatar from '../components/defaultAvatar.jpg'
+
+export default function FriendListItem({ avatar=defaultAvatar, name, isOnline }) {
     return (
         <>
             {isOnline === true

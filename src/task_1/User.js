@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
+import defaultAvatar from '../components/defaultAvatar.jpg'
 
-export default function User({ name, tag, location, avatar, followers, views, likes }) {
+export default function User({ name, tag, location, avatar = defaultAvatar, followers, views, likes }) {
   return (
     <div className="profile">
       <div className="description">
