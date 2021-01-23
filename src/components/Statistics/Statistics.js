@@ -1,4 +1,4 @@
-import StatisticsItem from './StatisticsItem';
+import StatisticsItem from '../StatisticsItem/StatisticsItem';
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
 
